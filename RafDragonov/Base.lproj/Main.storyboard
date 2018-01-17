@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="6k5-fS-rJ0">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Drag Me-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController title="Drag Me" id="BYZ-38-t0r" customClass="Page0ViewController" customModule="RafDragonov" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView contentMode="redraw" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Chibi_Sting" translatesAutoresizingMaskIntoConstraints="NO" id="DQn-b0-KBz">
+                                <rect key="frame" x="67" y="162" width="240" height="246"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <connections>
+                        <outlet property="imgv" destination="DQn-b0-KBz" id="UPk-BA-bV8"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1056.8" y="122.78860569715144"/>
+        </scene>
+        <!--Page1 View Controller-->
+        <scene sceneID="C9e-ww-aUY">
+            <objects>
+                <viewController id="JZw-bI-cSH" customClass="Page1ViewController" customModule="RafDragonov" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="sW7-xL-rLU"/>
+                        <viewControllerLayoutGuide type="bottom" id="ydH-fr-dcW"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="2I3-ma-v0l">
+                        <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="21" translatesAutoresizingMaskIntoConstraints="NO" id="Ch5-My-xLa">
+                                <rect key="frame" x="57" y="64" width="128" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="21" translatesAutoresizingMaskIntoConstraints="NO" id="PAs-rK-LYg">
+                                <rect key="frame" x="206" y="312" width="128" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <extendedEdge key="edgesForExtendedLayout" bottom="YES"/>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+                    <connections>
+                        <outlet property="img1" destination="Ch5-My-xLa" id="kgs-De-E2p"/>
+                        <outlet property="img2" destination="PAs-rK-LYg" id="ufs-Cq-ErW"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XXu-Bb-SQV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1056.8" y="-534.78260869565224"/>
+        </scene>
+        <!--Page3 View Controller-->
+        <scene sceneID="g6H-w3-0h3">
+            <objects>
+                <viewController id="VgO-bg-OsZ" customClass="Page3ViewController" customModule="RafDragonov" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Fnl-S9-Z7H"/>
+                        <viewControllerLayoutGuide type="bottom" id="7Be-nT-Z8O"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="NXi-Zy-Xyh">
+                        <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Kgb-PY-Hdb" customClass="LineDrawCanvas" customModule="RafDragonov" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="11" translatesAutoresizingMaskIntoConstraints="NO" id="3ma-5o-rTr">
+                                <rect key="frame" x="224" y="83" width="128" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="15" translatesAutoresizingMaskIntoConstraints="NO" id="PmF-1B-1fe">
+                                <rect key="frame" x="38" y="269" width="128" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <extendedEdge key="edgesForExtendedLayout"/>
+                    <connections>
+                        <outlet property="img1" destination="3ma-5o-rTr" id="QH3-xs-mtH"/>
+                        <outlet property="img2" destination="PmF-1B-1fe" id="git-c3-gio"/>
+                        <outlet property="lineDrawCanvas" destination="Kgb-PY-Hdb" id="M7m-Un-g0q"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="95m-Ca-Mfs" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1076" y="846.9265367316342"/>
+        </scene>
+        <!--Index Table View Controller-->
+        <scene sceneID="65D-9a-EIL">
+            <objects>
+                <tableViewController id="7gj-Nw-bku" customClass="IndexTableViewController" customModule="RafDragonov" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="k0X-WL-f6j">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" id="dnJ-W8-agp">
+                                <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="dnJ-W8-agp" id="l8Y-XG-NYC">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="7gj-Nw-bku" id="FlD-8R-LJ1"/>
+                            <outlet property="delegate" destination="7gj-Nw-bku" id="ErF-Uc-NeK"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="Dg6-Cq-V15"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="show" identifier="sg_0" id="drq-GH-FAP"/>
+                        <segue destination="JZw-bI-cSH" kind="show" identifier="sg_1" id="nMB-4o-vad"/>
+                        <segue destination="VgO-bg-OsZ" kind="show" identifier="sg_2" id="eMe-cq-lqu"/>
+                    </connections>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CGZ-nB-XJl" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="215.19999999999999" y="122.78860569715144"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="HwH-0e-OYi">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="6k5-fS-rJ0" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="6qk-cI-7RD">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="7gj-Nw-bku" kind="relationship" relationship="rootViewController" id="h5x-BC-Xtk"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="AfO-zs-CL8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-724" y="122.78860569715144"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="11" width="435" height="500"/>
+        <image name="15" width="352" height="500"/>
+        <image name="21" width="128" height="150"/>
+        <image name="Chibi_Sting" width="591" height="628"/>
+    </resources>
+</document>
