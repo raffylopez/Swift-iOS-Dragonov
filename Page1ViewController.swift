@@ -17,6 +17,7 @@ class Page1ViewController: UIViewController {
     func mkPt(_ x:Double, _ y:Double)->CGPoint {
         return CGPoint(x: x, y: y)
     }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -35,6 +36,7 @@ class Page1ViewController: UIViewController {
             alert in
             // ok code
         })
+        
         let action1 = UIAlertAction(title: "Cancel", style: .cancel, handler:{
             _ in
             // cancel code
@@ -42,9 +44,8 @@ class Page1ViewController: UIViewController {
         uac.addAction(action0)
         uac.addAction(action1)
         self.present(uac, animated: true, completion: nil)
-
-        
     }
+    
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
